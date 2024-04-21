@@ -1,0 +1,97 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.img{
+    margin: 0px 0px 5px 95px;
+    width: 160px;
+    height: 160px;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.bemVindo{
+    margin-bottom: 15px;
+    color: #999;
+    text-align-last: center;
+    font-size: 14px;
+}
+
+.tituloEmail{
+    color: #999;
+    font-weight: bold;
+}
+
+.email{ 
+    width: 350px;
+    height: 40px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin: 5px  0px 15px 0px;
+    padding: 10px;
+}
+
+.senha{
+    color: #999;
+    font-weight: bold;
+}
+
+.password{
+    width: 350px;
+    height: 40px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin: 5px 0px 15px 0px;
+    padding: 5px 0px 0px 5px;
+}
+
+#button{
+    width: 350px;
+    height: 40px;
+    background-color: #4162b7;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.esqueceuSenha{
+    margin-left: 205px;
+    font-size: 14px;
+}
+
+a{
+    color: #4162b7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.naoTemConta{
+    margin-top: 25px;
+    font-size: 12px;
+    color: #999;
+    text-align-last: center;
+    font-weight: bold;
+}
+
+.criador{
+    margin-top: 25px;
+    font-size: 12px;
+    color: #999;
+    text-align-last: center;
+}
